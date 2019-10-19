@@ -1,0 +1,8 @@
+1. menampilkan semua kategori
+    SELECT * FROM kategori
+
+2. tampilkan produk per kategori, field ditampilkan nama kategori, nama produk, stock
+    SELECT kategori.nama, produk.nama, produk.stok FROM kategori JOIN produk ON kategori.id = produk.categori_id 
+
+3. tampilkan detail produk
+    SELECT deskripsi FROM produk
